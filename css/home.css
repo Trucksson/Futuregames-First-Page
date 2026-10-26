@@ -1,0 +1,23 @@
+.container{
+min-height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box{
+   width: 80%; 
+   max-width: 1000px;
+   min-height: 40px;
+   padding: 40px;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   text-align: center;
+   background-color: aliceblue;
+   color: black;
+   border-radius: 60px;
+   
+}

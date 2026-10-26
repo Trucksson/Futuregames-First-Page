@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("/Images/Forest.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+    padding: 20px 40px;
+    background: linear-gradient(190deg, #8a7481, #1c1c85);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 40px
+    ;
+}
+nav a{
+color: white;
+text-decoration: none;
+font-size: 20px
+
+}
+nav a:hover{
+    color: rgb(201, 20, 20);
+    text-shadow: #000000;
+    
+}
+nav a.active {
+    color: #ffd700;
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 5px;
+}
